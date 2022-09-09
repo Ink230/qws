@@ -1,0 +1,6 @@
+.next
+.gitignore
+.eslintrc.json
+.husky
+dist
+node_modules
