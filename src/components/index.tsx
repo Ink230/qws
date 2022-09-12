@@ -1,3 +1,4 @@
+export { Footer } from './Footer';
 export { Header } from './Header';
 export { Layout, siteName } from './Layout';
-export { Footer } from './Footer';
+export { Main } from './Main';

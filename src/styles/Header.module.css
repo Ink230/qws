@@ -1,0 +1,6 @@
+.navmenu {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10vw;
+  border: solid 4px purple;
+}

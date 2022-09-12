@@ -1,18 +1,12 @@
-//import Image from 'next/image'
-
-//import styles from '../styles/Home.module.css'
-
 import type { NextPage } from 'next';
-import { Header, Layout, Footer } from '../components';
+import { Layout } from '../components';
 
 const title: string = 'Quinn Web Solutions';
 
 const Home: NextPage = () => {
   return (
     <Layout _home={true} _pageTitle={title}>
-      <Header />
-
-      <Footer />
+      Test
     </Layout>
   );
 };

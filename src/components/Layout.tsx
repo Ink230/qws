@@ -1,5 +1,7 @@
-import { ReactNode } from 'react';
 import Head from 'next/head';
+import { ReactNode } from 'react';
+import { Footer, Header, Main } from '../components';
+import css from '../styles/Layout.module.css';
 
 type Props = {
   children: ReactNode;
@@ -7,7 +9,7 @@ type Props = {
   _home: boolean;
 };
 
-export const siteName = 'Quinn Web Solutions 2';
+export const siteName = 'Quinn Web Solutions';
 
 export const Layout: React.FC<Props> = ({
   children,
@@ -15,14 +17,19 @@ export const Layout: React.FC<Props> = ({
   _home,
 }: Props) => {
   return (
-    <div>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Quinn Web Solutions" />
         <meta name="og:title" content={siteName} />
         <title>{siteName}</title>
       </Head>
-      <main>{children}</main>
-    </div>
+
+      <div className={css.container}>
+        <Header />
+        <Main>{children}</Main>
+        <Footer />
+      </div>
+    </>
   );
 };

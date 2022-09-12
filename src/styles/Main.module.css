@@ -1,0 +1,4 @@
+.main {
+  border: solid green 4px;
+  flex-grow: 1;
+}
