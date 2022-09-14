@@ -1,4 +1,121 @@
 .footer {
-  border: solid 4px orange;
-  background: green;
+  text-align: center;
+  font-size: 0.92rem;
+  contain: content;
+}
+
+.footercushion {
+  background: #568a34;
+}
+
+.directlinks {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 2vw;
+  column-gap: 5vw;
+  background: #568a34;
+  width: 100%;
+  position: relative;
+}
+
+.footerlist p {
+  margin: 0;
+  padding: 0;
+}
+
+.finisher {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  background: #568a34;
+  width: 100%;
+  z-index: 2;
+}
+
+.finishersmall {
+  display: flex;
+  flex-direction: row;
+  background: #568a34;
+  width: 33.34%;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  column-gap: 1.5vw;
+}
+
+.centeralign {
+  justify-content: center;
+}
+.rightalign {
+  justify-content: right;
+  padding-top: 0.13vw;
+}
+
+.socialmedia {
+  min-width: 1.1vw;
+  padding-top: 1vw;
+}
+
+.sectiontransition {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 3;
+  background: #f7f7f7;
+  min-width: 760px;
+}
+
+.sectionflankleft {
+  width: 10.5vw;
+  min-width: 79.8px;
+  background-color: #568a34;
+  transform: rotate(3deg);
+  position: relative;
+  left: -1vw;
+  top: 0.2vw;
+  height: 4vw;
+}
+.sectionflankright {
+  width: 10.5vw;
+  min-width: 79.8px;
+  transform: rotate(357deg);
+  background-color: #568a34;
+  position: relative;
+  right: -1vw;
+  top: 0.2vw;
+  height: 4vw;
+}
+
+.sectionflankleftwrap {
+  width: 11.5vw;
+  min-width: 87.4px;
+  background-color: #78ab56;
+  transform: rotate(7.2deg);
+  position: relative;
+  top: 5.05vw;
+  height: 6vw;
+}
+.sectionflankrightwrap {
+  width: 11.5vw;
+  min-width: 87.4px;
+  transform: rotate(352.8deg);
+  background-color: #78ab56;
+  position: relative;
+  top: 5.05vw;
+  height: 6vw;
+}
+
+.sectionmiddle {
+  width: 82vw;
+  min-width: 623.2px;
+  background-color: #78ab56;
+  position: relative;
+  top: 5.715vw;
 }

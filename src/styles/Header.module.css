@@ -1,6 +1,29 @@
-.navmenu {
+.topbar {
   display: flex;
   flex-direction: row;
-  column-gap: 10vw;
-  border: solid 4px purple;
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 1vw;
+  column-gap: 5vw;
+  min-width: 760px;
+  width: 75vw;
+}
+
+.logo {
+  border: solid 0px red;
+  width: 12vw;
+  padding-left: 1vw;
+}
+
+.navbar {
+  justify-content: flex-start;
+  border: solid 0px red;
+}
+
+.navmenu {
+  display: flex;
+  column-gap: 4vw;
+  border: solid 0px orange;
+  padding-top: 0.5vw;
 }
