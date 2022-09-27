@@ -7,11 +7,12 @@ import Image from 'next/image';
 import qws from '../../public/qws_logo_small.svg';
 
 export const navLinks = [
-  { name: 'Websites', path: '/test' },
-  { name: 'APIs & DB', path: '/test' },
-  { name: 'Maintenance', path: '/test' },
-  { name: 'Business Solutions', path: '/test' },
-  { name: 'Branding', path: '/test' },
+  { name: 'Websites', path: '/websites' },
+
+  { name: 'Maintenance & Hosting', path: '/maintenance' },
+  { name: 'Business Solutions', path: '/business' },
+  { name: 'APIs & DB', path: '/backend' },
+  { name: 'Branding', path: '/branding' },
 ];
 
 export const Header: React.FC = () => {

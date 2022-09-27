@@ -1,0 +1,108 @@
+.container {
+  width: 100%;
+  max-height: 9vw;
+  contain: content;
+}
+
+.containergapless {
+  width: 100%;
+  contain: content;
+  max-height: 0vw;
+  border: solid 0px red;
+}
+
+.child {
+  background-color: #568a34;
+  margin-top: 5vw;
+  min-height: 40vw;
+  width: 120vw;
+  transform: rotate(358.5deg);
+  position: relative;
+  left: -5vw;
+}
+
+.childoutline {
+  border-top: solid 1px #76ab34;
+  background-color: #76ab34;
+  min-height: 0.2vw;
+  box-shadow: 1px -4px 1px 2px #76ab34;
+}
+
+.childoutlineend {
+  border-top: solid 1px #76ab34;
+  background-color: #76ab34;
+  min-height: 0.2vw;
+  box-shadow: 1px -4px 1px 2px #76ab34;
+}
+
+.childoutlineendreverse {
+  border-top: solid 1px #76ab34;
+  background-color: #76ab34;
+  min-height: 0.2vw;
+  box-shadow: 1px -4px 1px 2px #76ab34;
+}
+
+.sectioncontainer {
+  border: solid 0px grey;
+  background-color: #568a34;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerend {
+  width: 100%;
+  max-height: 10vw;
+  contain: content;
+}
+
+.childend {
+  background-color: #f7f7f7;
+
+  min-height: 40vw;
+  width: 120vw;
+  transform: rotate(358.5deg);
+  position: relative;
+  left: -5vw;
+  top: 5vw;
+}
+
+.childreverse {
+  background-color: #f7f7f7;
+  margin-top: 5vw;
+  min-height: 40vw;
+  width: 120vw;
+  transform: rotate(358.5deg);
+  position: relative;
+  left: -5vw;
+  border: solid 0px red;
+}
+
+.sectioncontainerreverse {
+  border: solid 0px grey;
+  background-color: #f7f7f7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.childendreverse {
+  background-color: #568a34;
+
+  min-height: 40vw;
+  width: 120vw;
+  transform: rotate(358.5deg);
+  position: relative;
+  left: -5vw;
+  top: 5vw;
+
+  border: solid 0px red;
+}
+
+.final {
+  background-color: #f7f7f7;
+  min-height: unset;
+  max-height: 10vw;
+}

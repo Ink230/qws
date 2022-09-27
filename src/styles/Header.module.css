@@ -1,29 +1,35 @@
 .topbar {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding-top: 1vw;
-  column-gap: 5vw;
   min-width: 760px;
-  width: 75vw;
+  width: 80vw;
+  column-gap: 0vw;
+  margin: 0 auto;
 }
 
 .logo {
   border: solid 0px red;
-  width: 12vw;
+  width: 20%;
   padding-left: 1vw;
 }
 
 .navbar {
-  justify-content: flex-start;
   border: solid 0px red;
+  width: 75%;
 }
 
 .navmenu {
   display: flex;
-  column-gap: 4vw;
-  border: solid 0px orange;
-  padding-top: 0.5vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 2vw;
+  height: 100%;
+}
+.navmenu li {
+  border: solid 0px red;
+  flex-grow: 0;
 }

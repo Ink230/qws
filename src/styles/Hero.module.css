@@ -1,0 +1,53 @@
+.herocontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 4vw;
+  min-width: 760px;
+}
+
+.heropush {
+  width: 25vw;
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 480px;
+  max-width: 30ch;
+}
+
+.herotitle {
+  font-size: 5.5ch;
+  font-weight: 700;
+  line-height: 3.2rem;
+  padding-top: 2vw;
+}
+
+.herocapture {
+  font-size: 3.2ch;
+  font-weight: 500;
+  line-height: 2.2rem;
+  padding-top: 1vw;
+}
+
+.heroaction {
+  font-size: 1rem;
+  font-weight: 400;
+  border: solid 0px #586a34;
+  background-color: #78ab56;
+  text-align: center;
+  border-radius: 50px;
+  width: 10vw;
+  margin-top: 1vw;
+  min-width: 150px;
+  font-weight: 500;
+}
+
+.heroimage {
+  width: 35vw;
+  min-width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}

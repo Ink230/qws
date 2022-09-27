@@ -38,6 +38,7 @@
   background: #568a34;
   width: 100%;
   z-index: 2;
+  border-top: solid 1px #78ab56;
 }
 
 .finishersmall {
@@ -46,7 +47,6 @@
   background: #568a34;
   width: 33.34%;
   padding-top: 1vw;
-  padding-bottom: 1vw;
   column-gap: 1.5vw;
 }
 
@@ -96,7 +96,7 @@
 .sectionflankleftwrap {
   width: 11.5vw;
   min-width: 87.4px;
-  background-color: #78ab56;
+  background-color: #76ab34;
   transform: rotate(7.2deg);
   position: relative;
   top: 5.05vw;
@@ -106,7 +106,7 @@
   width: 11.5vw;
   min-width: 87.4px;
   transform: rotate(352.8deg);
-  background-color: #78ab56;
+  background-color: #76ab34;
   position: relative;
   top: 5.05vw;
   height: 6vw;
@@ -115,7 +115,7 @@
 .sectionmiddle {
   width: 82vw;
   min-width: 623.2px;
-  background-color: #78ab56;
+  background-color: #76ab34;
   position: relative;
   top: 5.715vw;
 }

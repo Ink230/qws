@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { ReactNode } from 'react';
-import { Footer, Header, Main } from '../components';
+import { Footer, Header } from '../components';
 import css from '../styles/Layout.module.css';
 
 type Props = {
@@ -25,12 +25,11 @@ export const Layout: React.FC<Props> = ({
         <meta name="og:title" content={siteName} />
         <title>{siteName}</title>
       </Head>
-
       <div className={css.container}>
         <Header />
-        <Main>{children}</Main>
+        {children}
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
