@@ -4,27 +4,34 @@ import Link from 'next/link';
 import css from '../styles/Product.module.css';
 type Props = {
   icon: string;
+  vertical?: boolean;
   title: string;
   capture: string;
   captureExtra?: string;
   Component: NextComponentType;
   action: string;
   actionRoute: string;
+  actionColour?: boolean;
 };
 
 export const Product: React.FC<Props> = ({
   icon,
+  vertical,
   title,
   capture,
   captureExtra,
   Component,
   action,
   actionRoute,
+  actionColour,
 }: Props) => {
+  const iconType = vertical ? css.iconvertical : css.icon;
+  const actionType = actionColour ? css.actiondark : css.action;
+
   return (
     <div className={css.container}>
       <div className={css.push}>
-        <div className={css.icon}>
+        <div className={iconType}>
           <Image
             alt="Icon"
             src={icon}
@@ -40,7 +47,7 @@ export const Product: React.FC<Props> = ({
           {captureExtra}
         </div>
         <Link href={actionRoute} key={actionRoute}>
-          <div className={css.action}>{action}</div>
+          <div className={actionType}>{action}</div>
         </Link>
       </div>
       <div className={css.offering}>

@@ -27,18 +27,18 @@ export const Footer: React.FC = () => {
               <p>Your Business Matters</p>
               <p>The Design Cycle</p>
               <p>Unrestricted Communication</p>
-              <p>SEO & Performance</p>
-              <p>Experience & Qualifications</p>
+              <p>SEO &#38; Performance</p>
+              <p>Experience &#38; Qualifications</p>
               <p>Accessibility Compliance</p>
               <p></p>
             </div>
             <div className={css.footerlist}>
               <h3>Services and Pricing</h3>
               <p>Websites</p>
-              <p>APIs & Databases</p>
+              <p>APIs &#38; Databases</p>
               <p>Website Maintenance</p>
               <p>Business Solutions</p>
-              <p>Branding & Design</p>
+              <p>Branding &#38; Design</p>
               <p>Cloud App Services</p>
               <p>Desktop Apps</p>
               <p>Hourly Rates</p>
@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
               <p>Why You Need a Website</p>
               <p>Web Terminology 101</p>
               <p>Pick the Right Website For You</p>
-              <p>Performance with Caching & CDNs</p>
+              <p>Performance with Caching &#38; CDNs</p>
               <p>Page Speed: Make or Break</p>
               <p>How the Frontend Attracts Clients</p>
               <p>Is Your Backend Doing its Job?</p>

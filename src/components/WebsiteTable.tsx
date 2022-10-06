@@ -1,4 +1,4 @@
-import css from '../styles/WebsiteTable.module.css';
+import css from '../styles/TableDark.module.css';
 
 type Props = {
   _unused?: string;
@@ -10,12 +10,14 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
       <div className={css.tablecontainer}>
         <div className={css.column}>
           <div className={css.title}>
-            WORDPRESS<div className={css.smalltitle}></div>
+            WordPress<div className={css.smalltitle}></div>
           </div>
           <div className={css.inner}>
             <div className={css.pricingcontainer}>
               <div className={css.startingfrom}>Starting from</div>
-              <div className={css.price}>$699</div>
+              <div className={css.price}>
+                <b>$</b>699
+              </div>
 
               <div className={css.discount}></div>
             </div>
@@ -42,13 +44,15 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
         </div>
         <div className={css.column}>
           <div className={css.title}>
-            ONE PAGE WONDER
+            One Page Wonder
             <div className={css.smalltitle}>NextJS</div>
           </div>
           <div className={css.inner}>
             <div className={css.pricingcontainer}>
               <div className={css.startingfrom}>Starting from</div>
-              <div className={css.price}>$2999</div>
+              <div className={css.price}>
+                <b>$</b>2999
+              </div>
 
               <div className={css.discount}></div>
             </div>
@@ -79,7 +83,7 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
         </div>
         <div className={css.column}>
           <div className={css.title}>
-            CUSTOM SOLUTION
+            Custom Solution
             <div className={css.smalltitle}>
               React • NextJS • .NET • Laravel • Cloud
             </div>
@@ -87,7 +91,9 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
           <div className={css.inner}>
             <div className={css.pricingcontainer}>
               <div className={css.startingfrom}>Starting from</div>
-              <div className={css.price}>$4999</div>
+              <div className={css.price}>
+                <b>$</b>4999
+              </div>
 
               <div className={css.discount}></div>
             </div>
@@ -95,10 +101,10 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
             <div className={css.offering}>User account systems</div>
             <div className={css.offering}>Content management systems</div>
             <div className={css.offering}>
-              Dashboards or high levels of interactivity
+              Dashboards, high interactivity or real time
             </div>
             <div className={css.offeringend}>
-              Cloud solutions for high traffic scaling
+              Databases, cloud services, complex APIs
             </div>
             <div className={css.isitforyou}>If you need...</div>
             <div className={css.offering}>

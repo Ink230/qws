@@ -8,6 +8,7 @@
   width: 80vw;
   column-gap: 0vw;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .logo {

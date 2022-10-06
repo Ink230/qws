@@ -2,6 +2,7 @@
   width: 100%;
   max-height: 9vw;
   contain: content;
+  box-shadow: 0vw 0.1vw #568a34;
 }
 
 .containergapless {
@@ -15,10 +16,11 @@
   background-color: #568a34;
   margin-top: 5vw;
   min-height: 40vw;
-  width: 120vw;
+
   transform: rotate(358.5deg);
   position: relative;
-  left: -5vw;
+
+  width: 120%;
 }
 
 .childoutline {
@@ -61,10 +63,11 @@
   background-color: #f7f7f7;
 
   min-height: 40vw;
-  width: 120vw;
+
   transform: rotate(358.5deg);
   position: relative;
-  left: -5vw;
+
+  width: 120%;
   top: 5vw;
 }
 
@@ -72,10 +75,9 @@
   background-color: #f7f7f7;
   margin-top: 5vw;
   min-height: 40vw;
-  width: 120vw;
+  width: 120%;
   transform: rotate(358.5deg);
   position: relative;
-  left: -5vw;
   border: solid 0px red;
 }
 
@@ -92,10 +94,9 @@
   background-color: #568a34;
 
   min-height: 40vw;
-  width: 120vw;
+  width: 120%;
   transform: rotate(358.5deg);
   position: relative;
-  left: -5vw;
   top: 5vw;
 
   border: solid 0px red;

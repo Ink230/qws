@@ -10,9 +10,9 @@ export const navLinks = [
   { name: 'Websites', path: '/websites' },
 
   { name: 'Maintenance & Hosting', path: '/maintenance' },
+  { name: 'Portfolio', path: '/portfolio' },
   { name: 'Business Solutions', path: '/business' },
-  { name: 'APIs & DB', path: '/backend' },
-  { name: 'Branding', path: '/branding' },
+  { name: 'Hourly Fees', path: '/hourly' },
 ];
 
 export const Header: React.FC = () => {
