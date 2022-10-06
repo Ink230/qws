@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 1vw;
+  text-align: center;
+  border: solid 0px orange;
+  column-gap: 1vw;
+}
+
+.designcircle {
+  width: 20vw;
+  border: solid 0px red;
+}
+
+.centercontainer {
+  border: Solid 0px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: Center;
+  align-items: center;
+}
+
+.centerinnercontainer {
+  border: Solid 0px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: Center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 0px red;
+  column-gap: 5vw;
+}
+
+.bottomcontent {
+  width: 15vw;
+  border: Solid 0px black;
+}
+
+.midcontentleft {
+  border: solid 0px red;
+  margin-bottom: 3vw;
+  padding-right: 1vw;
+  width: 15vw;
+}
+
+.title {
+  font-weight: 500;
+  text-align: center;
+}
+
+.flanktitle {
+  font-weight: 500;
+  text-align: center;
+}
+
+.midcontentright {
+  border: solid 0px red;
+  margin-bottom: 3vw;
+  padding-left: 1vw;
+  width: 15vw;
+}
+
+.topcontent {
+  width: 15vw;
+}
+
+.flankcontent {
+  border: solid 0px red;
+  flex-grow: 1;
+  width: 1%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flankcontent p {
+  padding: 0;
+  margin: 0;
+  width: 30ch;
+  border: solid 0px red;
+}
