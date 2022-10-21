@@ -87,3 +87,203 @@
   width: 30ch;
   border: solid 0px red;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 80%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 8vw;
+    padding-bottom: 2vw;
+  }
+
+  .smalltext {
+    font-size: 5.5vw;
+  }
+
+  .flankcontent p {
+    font-size: 6vw;
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 80%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 8vw;
+    padding-bottom: 2vw;
+  }
+
+  .smalltext {
+    font-size: 5.5vw;
+  }
+
+  .flankcontent p {
+    font-size: 6vw;
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 80%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 8vw;
+    padding-bottom: 2vw;
+  }
+
+  .smalltext {
+    font-size: 5.5vw;
+  }
+
+  .flankcontent p {
+    font-size: 6vw;
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 389px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 60%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 10vw;
+    padding-bottom: 2vw;
+  }
+
+  .smalltext {
+    font-size: 8vw;
+  }
+
+  .flankcontent p {
+    font-size: 8vw;
+    margin-bottom: 10vw;
+  }
+}

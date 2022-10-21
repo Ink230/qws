@@ -109,3 +109,137 @@
   font-weight: inherit;
   vertical-align: top;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 20vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 20vw;
+  }
+  .title {
+    font-size: 12vw;
+    padding: 5vw;
+    padding-bottom: 2vw;
+  }
+
+  .smalltitle {
+    margin-top: 4vw;
+    padding: 3vw;
+    font-size: 4.5vw;
+  }
+
+  .startingfrom {
+    font-size: 7vw;
+    padding-bottom: 10vw;
+    margin-top: 20vw;
+  }
+
+  .price {
+    font-size: 30vw;
+  }
+  .price b {
+    font-size: 7vw;
+  }
+
+  .discount {
+    font-size: 5vw;
+    padding-top: 10vw;
+    margin-bottom: 28vw;
+    text-indent: 27vw;
+  }
+
+  .offering {
+    font-size: 5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  .offeringend {
+    font-size: 5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .isitforyou {
+    margin-top: 10vw;
+    text-indent: 5vw;
+    font-size: 6vw;
+    margin-bottom: 2vw;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 389px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 25vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 20vw;
+  }
+  .title {
+    font-size: 16vw;
+    padding: 6vw;
+    padding-bottom: 3vw;
+  }
+
+  .smalltitle {
+    margin-top: 6vw;
+    padding: 4vw;
+    font-size: 7vw;
+  }
+
+  .startingfrom {
+    font-size: 8vw;
+    padding-bottom: 11.5vw;
+    margin-top: 18vw;
+  }
+
+  .price {
+    font-size: 35vw;
+  }
+
+  .price b {
+    font-size: 8vw;
+  }
+
+  .discount {
+    font-size: 6vw;
+    padding-top: 8vw;
+    margin-bottom: 20vw;
+    text-indent: 35vw;
+  }
+
+  .offering {
+    font-size: 7.5vw;
+    padding: 2vw;
+    padding-top: 2.1vw;
+    padding-bottom: 2.1vw;
+  }
+  .offeringend {
+    font-size: 7vw;
+    padding-top: 2.1vw;
+    padding-bottom: 2.1vw;
+  }
+
+  .isitforyou {
+    margin-top: 14vw;
+    text-indent: 5vw;
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+}

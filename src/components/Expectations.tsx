@@ -30,7 +30,7 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
       <div className={css.centercontainer}>
         <div className={css.topcontent}>
           <div className={css.title}>Insight</div>
-          <div>
+          <div className={css.smalltext}>
             We learn about you and understand your business. Then, we discuss
             with you the features for success.
           </div>
@@ -38,7 +38,7 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
         <div className={css.centerinnercontainer}>
           <div className={css.midcontentleft}>
             <div className={css.title}>Launch</div>
-            <div>
+            <div className={css.smalltext}>
               We help you with everything you need to launch your site. As well,
               consider a maintenance package below.
             </div>
@@ -55,7 +55,7 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
 
           <div className={css.midcontentright}>
             <div className={css.title}>Design</div>
-            <div>
+            <div className={css.smalltext}>
               From understanding your business and vision we draft designs for
               your review before locking it in.
             </div>
@@ -64,14 +64,14 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
         <div className={css.bottom}>
           <div className={css.bottomcontent}>
             <div className={css.title}>Review</div>
-            <div>
+            <div className={css.smalltext}>
               The design and content is ready and your final recommendations are
               amended in full.
             </div>
           </div>
           <div className={css.bottomcontent}>
             <div className={css.title}>Implement</div>
-            <div>
+            <div className={css.smalltext}>
               We take to our tools and create your working product. We will ask
               for your feedback along the way.
             </div>
