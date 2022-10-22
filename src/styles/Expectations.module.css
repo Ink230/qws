@@ -88,14 +88,14 @@
   border: solid 0px red;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .container {
     flex-direction: column;
   }
   .flankcontent {
     width: unset;
-    margin-top: 20vw;
-    margin-bottom: 25vw;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
   }
 
   .centercontainer {
@@ -124,28 +124,28 @@
   }
 
   .title {
-    font-size: 8vw;
-    padding-bottom: 2vw;
+    font-size: 4vw;
+    padding-bottom: 1.4vw;
   }
 
   .smalltext {
-    font-size: 5.5vw;
+    font-size: 3vw;
   }
 
   .flankcontent p {
-    font-size: 6vw;
-    margin-bottom: 10vw;
+    font-size: 3vw;
+    margin-bottom: 5vw;
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     flex-direction: column;
   }
   .flankcontent {
     width: unset;
-    margin-top: 20vw;
-    margin-bottom: 25vw;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
   }
 
   .centercontainer {
@@ -174,16 +174,116 @@
   }
 
   .title {
-    font-size: 8vw;
+    font-size: 4vw;
+    padding-bottom: 1.4vw;
+  }
+
+  .smalltext {
+    font-size: 3vw;
+  }
+
+  .flankcontent p {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 80%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 4vw;
+    padding-bottom: 1.4vw;
+  }
+
+  .smalltext {
+    font-size: 3vw;
+  }
+
+  .flankcontent p {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 666px) {
+  .container {
+    flex-direction: column;
+  }
+  .flankcontent {
+    width: unset;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+  }
+
+  .centercontainer {
+  }
+
+  .midcontentleft {
+    width: 50%;
+  }
+  .designcircle {
+    width: 80%;
+  }
+
+  .midcontentright {
+    width: 50%;
+  }
+
+  .topcontent {
+    width: 60%;
+  }
+
+  .centerinnercontainer {
+  }
+
+  .bottomcontent {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 6vw;
     padding-bottom: 2vw;
   }
 
   .smalltext {
-    font-size: 5.5vw;
+    font-size: 4vw;
   }
 
   .flankcontent p {
-    font-size: 6vw;
+    font-size: 4vw;
     margin-bottom: 10vw;
   }
 }

@@ -51,11 +51,119 @@
   justify-content: center;
   align-content: center;
 }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .herotitle {
+    margin-bottom: 1.5vw;
+  }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .herocapture {
+    margin-bottom: 3vw;
+  }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .herotitle {
+    margin-bottom: 1.5vw;
+  }
+
+  .herocapture {
+    margin-bottom: 3vw;
+  }
+}
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .herocontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vw;
+    margin-top: 10vw;
+  }
+
+  .heropush {
+    all: unset;
+    align-content: center;
+    order: 2;
+  }
+
+  .herotitle {
+    padding: 4vw;
+    font-size: 10.4vw;
+    line-height: 4.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .herocapture {
+    font-size: 3.1ch;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding: 4vw;
+    padding-top: 1vw;
+  }
+
+  .heroaction {
+    margin: 0 auto;
+    padding: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    font-size: 2rem;
+    width: 60vw;
+  }
+
+  .heroimage {
+    order: 1;
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 666px) {
+  .herocontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vw;
+    margin-top: 10vw;
+  }
+
+  .heropush {
+    all: unset;
+    align-content: center;
+    order: 2;
+  }
+
+  .herotitle {
+    padding: 4.5vw;
+    font-size: 12vw;
+    line-height: 4.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .herocapture {
+    font-size: 3.4ch;
+    font-weight: 500;
+    line-height: 2.5rem;
+    padding: 4.5vw;
+    padding-top: 2vw;
+  }
+
+  .heroaction {
+    margin: 0 auto;
+    padding: 4vw;
+    margin-top: 8vw;
+    margin-bottom: 16vw;
+    font-size: 2.2rem;
+    width: 80vw;
+  }
+
+  .heroimage {
+    order: 1;
+    width: 90vw;
+  }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 499px) {

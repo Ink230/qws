@@ -12,6 +12,9 @@
   all: unset;
   display: revert;
 }
+* {
+  outline: 0px solid #f00 !important;
+}
 
 /* Preferred box-sizing value */
 *,
@@ -111,10 +114,46 @@ p {
   margin-bottom: 1.6rem;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  html,
+  body {
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+    line-height: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+    line-height: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
+  html,
+  body {
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+    line-height: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
   html,
   body {
     font-size: 20px;
@@ -126,8 +165,7 @@ p {
     font-size: 1.6rem;
   }
 }
-
-@media only screen and (min-width: 0px) and (max-width: 499px) {
+@media only screen and (min-width: 0px) and (max-width: 389px) {
   html,
   body {
     font-size: 20px;

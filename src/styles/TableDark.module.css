@@ -110,10 +110,256 @@
   vertical-align: top;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 12vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 10vw;
+  }
+  .title {
+    font-size: 6vw;
+    padding: 3vw;
+    padding-bottom: 1vw;
+  }
+
+  .smalltitle {
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+  }
+
+  .startingfrom {
+    font-size: 5vw;
+    padding-bottom: 8vw;
+    margin-top: 10vw;
+  }
+
+  .price {
+    font-size: 20vw;
+  }
+  .price b {
+    font-size: 7vw;
+  }
+
+  .discount {
+    font-size: 5vw;
+    padding-top: 7vw;
+    margin-bottom: 14vw;
+    text-indent: 11vw;
+  }
+
+  .offering {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  .offeringend {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .isitforyou {
+    margin-top: 8vw;
+    text-indent: 5vw;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 12vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 10vw;
+  }
+  .title {
+    font-size: 6vw;
+    padding: 3vw;
+    padding-bottom: 1vw;
+  }
+
+  .smalltitle {
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+  }
+
+  .startingfrom {
+    font-size: 5vw;
+    padding-bottom: 8vw;
+    margin-top: 10vw;
+  }
+
+  .price {
+    font-size: 20vw;
+  }
+  .price b {
+    font-size: 7vw;
+  }
+
+  .discount {
+    font-size: 5vw;
+    padding-top: 7vw;
+    margin-bottom: 14vw;
+    text-indent: 11vw;
+  }
+
+  .offering {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  .offeringend {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .isitforyou {
+    margin-top: 8vw;
+    text-indent: 5vw;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 20vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 10vw;
+  }
+  .title {
+    font-size: 6vw;
+    padding: 3vw;
+    padding-bottom: 1vw;
+  }
+
+  .smalltitle {
+    margin-top: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+  }
+
+  .startingfrom {
+    font-size: 5vw;
+    padding-bottom: 7vw;
+    margin-top: 10vw;
+  }
+
+  .price {
+    font-size: 20vw;
+  }
+  .price b {
+    font-size: 7vw;
+  }
+
+  .discount {
+    font-size: 5vw;
+    padding-top: 7vw;
+    margin-bottom: 14vw;
+    text-indent: 11vw;
+  }
+
+  .offering {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  .offeringend {
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .isitforyou {
+    margin-top: 8vw;
+    text-indent: 5vw;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 666px) {
+  .tablecontainer {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 20vw;
+  }
+  .column {
+    width: 100%;
+  }
+  .inner {
+    padding-bottom: 10vw;
+  }
+  .title {
+    font-size: 8vw;
+    padding: 4vw;
+    padding-bottom: 1vw;
+  }
+
+  .smalltitle {
+    margin-top: 2vw;
+    padding: 4vw;
+    font-size: 4vw;
+  }
+
+  .startingfrom {
+    font-size: 5vw;
+    padding-bottom: 7vw;
+    margin-top: 10vw;
+  }
+
+  .price {
+    font-size: 20vw;
+  }
+  .price b {
+    font-size: 7vw;
+  }
+
+  .discount {
+    font-size: 5vw;
+    padding-top: 7vw;
+    margin-bottom: 14vw;
+    text-indent: 11vw;
+  }
+
+  .offering {
+    font-size: 4vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+  .offeringend {
+    font-size: 4vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+  }
+
+  .isitforyou {
+    margin-top: 8vw;
+    text-indent: 5vw;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 499px) {

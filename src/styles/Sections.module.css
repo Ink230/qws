@@ -108,10 +108,193 @@
   max-height: 10vw;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .child {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childoutline {
+    min-height: 0.4vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .containerend {
+    max-height: 10vw;
+    box-shadow: 0px 0px 0px 0px #f7f7f7;
+    border: solid 0px red;
+  }
+
+  .childend {
+  }
+  .childoutlineend {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .childreverse {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childendreverse {
+    margin-top: 1vw;
+    width: 120%;
+    min-height: 500vw;
+  }
+
+  .childoutlineendreverse {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .final {
+    display: none;
+  }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .child {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childoutline {
+    min-height: 0.4vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .containerend {
+    max-height: 10vw;
+    box-shadow: 0px 0px 0px 0px #f7f7f7;
+    border: solid 0px red;
+  }
+
+  .childend {
+  }
+  .childoutlineend {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .childreverse {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childendreverse {
+    margin-top: 1vw;
+    width: 120%;
+    min-height: 500vw;
+  }
+
+  .childoutlineendreverse {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .final {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 767px) {
+  .child {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childoutline {
+    min-height: 0.5vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .containerend {
+    max-height: 10vw;
+    box-shadow: 0px 0px 0px 0px #f7f7f7;
+    border: solid 0px red;
+  }
+
+  .childend {
+  }
+  .childoutlineend {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .childreverse {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childendreverse {
+    margin-top: 1vw;
+    width: 120%;
+    min-height: 500vw;
+  }
+
+  .childoutlineendreverse {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .final {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 666px) {
+  .child {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childoutline {
+    min-height: 0.5vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .containerend {
+    max-height: 10vw;
+    box-shadow: 0px 0px 0px 0px #f7f7f7;
+    border: solid 0px red;
+  }
+
+  .childend {
+  }
+  .childoutlineend {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+  }
+
+  .childreverse {
+    margin-top: 4vw;
+    width: 150%;
+    min-height: 10vw;
+  }
+
+  .childendreverse {
+    margin-top: 1vw;
+    width: 120%;
+    min-height: 500vw;
+  }
+
+  .childoutlineendreverse {
+    min-height: 1vw;
+    box-shadow: 1px -4px 1px 2px #76ab34;
+    width: 100%;
+  }
+
+  .final {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 499px) {

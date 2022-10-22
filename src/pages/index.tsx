@@ -21,6 +21,7 @@ const Home: NextPage = () => {
       <Main>
         <Hero />
       </Main>
+      <div id="websites"></div>
       <Section>
         <Product
           icon={websites}
@@ -34,9 +35,11 @@ const Home: NextPage = () => {
           actionRoute={'Websites'}
         />
       </Section>
+      <div id="expectations"></div>
       <Section lessGap reverse>
         <Expectations />
       </Section>
+      <div id="maintenace"></div>
       <Section lessGap>
         <Product
           icon={maintenance}
@@ -51,6 +54,7 @@ const Home: NextPage = () => {
           actionRoute={'Websites'}
         />
       </Section>
+      <div id="portfolio"></div>
       <Section lessGap reverse>
         <Product
           icon={maintenance}
@@ -66,12 +70,13 @@ const Home: NextPage = () => {
           actionColour={true}
         />
       </Section>
-
+      <div id="business"></div>
       <Section lessGap></Section>
+      <div id="hourly"></div>
       <Section lessGap reverse final>
         <Product
           icon={websites}
-          vertical={true}
+          vertical={false}
           title={'Hourly Service Fees'}
           capture={
             'When you do not need a package but you still need something done.'
