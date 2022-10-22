@@ -21,7 +21,7 @@ export const navLinks = [
 export const Header: React.FC = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-  const hamRef = useRef<HTMLBodyElement>(null);
+  const hamRef = useRef<HTMLUListElement>(null);
 
   function hamburgerToggle(state: boolean): void {
     if (hamRef.current == null) return;
