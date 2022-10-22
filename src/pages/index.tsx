@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       <Section lessGap reverse>
         <Expectations />
       </Section>
-      <div id="maintenace"></div>
+      <div id="maintenance"></div>
       <Section lessGap>
         <Product
           icon={maintenance}

@@ -29,7 +29,6 @@ export const Header: React.FC = () => {
     } else {
       hamRef.current.style.display = 'none';
     }
-    console.log('test');
   }
 
   return (
@@ -68,9 +67,7 @@ export const Header: React.FC = () => {
             {navLinks.map((link, index) => {
               return (
                 <Link href={link.path} key={index}>
-                  <a>
-                    <li>{link.name}</li>
-                  </a>
+                  <li>{link.name}</li>
                 </Link>
               );
             })}
