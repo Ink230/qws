@@ -7,7 +7,7 @@ import Image from 'next/image';
 import hamburger from '../../public/qws_hamburger.svg';
 import qws from '../../public/qws_logo_small.svg';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 
 export const navLinks = [
   { name: 'Websites', path: '/#websites' },
@@ -19,18 +19,14 @@ export const navLinks = [
 ];
 
 export const Header: React.FC = () => {
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
   const hamRef = useRef<HTMLUListElement>(null);
 
   function hamburgerToggle(state: boolean): void {
     if (hamRef.current == null) return;
 
     if (state) {
-      setHamburgerOpen(true);
       hamRef.current.style.display = 'flex';
     } else {
-      setHamburgerOpen(false);
       hamRef.current.style.display = 'none';
     }
     console.log('test');
