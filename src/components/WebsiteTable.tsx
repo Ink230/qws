@@ -85,7 +85,7 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
           <div className={css.title}>
             Custom Solution
             <div className={css.smalltitle}>
-              React • NextJS • .NET • Laravel • Cloud
+              React • NextJS • Angular • .NET • Laravel • Cloud
             </div>
           </div>
           <div className={css.inner}>

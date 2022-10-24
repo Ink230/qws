@@ -34,7 +34,11 @@ export const Header: React.FC = () => {
   return (
     <div className={css.topbar}>
       <div className={css.logo}>
-        <Image alt="QWS" src={qws} quality={100} layout="responsive" />
+        <Link href="/">
+          <a>
+            <Image alt="QWS" src={qws} quality={100} layout="responsive" />
+          </a>
+        </Link>
       </div>
       <div className={css.navbar}>
         <ul className={css.navmenu}>

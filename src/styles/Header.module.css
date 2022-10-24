@@ -51,7 +51,7 @@
 .hamburgercontainer {
   display: none;
   flex-direction: column;
-  background: #f7f7f7;
+  background: #fdfdfd;
   position: fixed;
   top: 0;
   bottom: 0;

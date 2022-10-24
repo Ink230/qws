@@ -1,0 +1,440 @@
+.aboutus {
+  font-size: 5vw;
+  font-weight: 700;
+  padding-top: 3vw;
+  padding-left: 2vw;
+}
+
+.container {
+  font-size: 1.5vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border: solid 0px red;
+}
+.right {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4rem;
+}
+
+.left {
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 100%;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.smalltext {
+  font-size: 75%;
+  padding-bottom: 4rem;
+}
+
+.lastboxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid 0px red;
+  row-gap: 2rem;
+  column-gap: 0.5rem;
+}
+
+.smallboxes {
+  width: 49%;
+}
+
+.smallcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.smallleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.smallright {
+  display: flex;
+  flex-direction: column;
+}
+
+.smalltitle {
+  font-size: 70%;
+  font-weight: 700;
+}
+
+.smallcaption {
+  font-size: 60%;
+  line-height: 1.3rem;
+}
+
+.personcontainer {
+  font-size: 1.5vw;
+  margin: 0 auto;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  border: solid 0px red;
+}
+.ourpeople {
+  font-weight: 700;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  border: solid 0px red;
+}
+.personimagecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 0px red;
+  width: 30vw;
+}
+.personimage {
+  padding: 1vw;
+}
+
+.personimage img {
+  border-radius: 30px;
+}
+.persontitle {
+  font-weight: 500;
+  font-size: 70%;
+  text-align: center;
+}
+
+.personbio {
+  font-size: 60%;
+  border: solid 0px red;
+  width: 50vw;
+  padding: 1vw;
+  padding-left: 3vw;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .aboutus {
+    font-size: 4vw;
+  }
+  .container {
+    font-size: 2.1vw;
+  }
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  .smalltext {
+    padding-bottom: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .right {
+    width: 45%;
+  }
+
+  .smallleft {
+    padding: 0rem;
+  }
+  .personcontainer {
+    font-size: 2.1vw;
+    width: 100%;
+    padding: 2rem;
+  }
+  .personimagecontainer {
+    align-self: center;
+  }
+
+  .person {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ourpeople {
+  }
+
+  .persontitle {
+    width: 350px;
+  }
+  .personbio {
+    width: 70%;
+    align-self: center;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .aboutus {
+    font-size: 4vw;
+  }
+  .container {
+    font-size: 4vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  .smalltext {
+    padding-bottom: 1rem;
+    line-height: 1.4rem;
+  }
+  .left {
+    width: 90%;
+  }
+
+  .right {
+    width: 45%;
+  }
+
+  .smallleft {
+    padding: 0;
+  }
+  .personcontainer {
+    font-size: 4vw;
+    width: 100%;
+    padding: 2rem;
+  }
+  .personimagecontainer {
+    align-self: center;
+  }
+
+  .person {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ourpeople {
+    font-size: 11vw;
+  }
+
+  .persontitle {
+    width: 350px;
+  }
+  .personbio {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .aboutus {
+    font-size: 11vw;
+  }
+  .container {
+    font-size: 5.8vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  .smalltext {
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .smallleft {
+    padding: 0;
+  }
+
+  .smallcaption {
+    line-height: 1.8rem;
+  }
+  .personcontainer {
+    font-size: 5.8vw;
+    width: 100%;
+    padding: 2rem;
+  }
+  .personimagecontainer {
+    align-self: center;
+  }
+
+  .person {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ourpeople {
+    font-size: 11vw;
+  }
+
+  .persontitle {
+    width: 350px;
+  }
+  .personbio {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 499px) {
+  .aboutus {
+    font-size: 11vw;
+  }
+  .container {
+    font-size: 10.5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .personcontainer {
+    font-size: 2.1vw;
+  }
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  .smalltext {
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .smallleft {
+    padding: 0;
+  }
+
+  .smallcaption {
+    padding-top: 0.5rem;
+    line-height: 1.8rem;
+  }
+  .personcontainer {
+    font-size: 10.5vw;
+    width: 100%;
+    padding: 2rem;
+  }
+  .personimagecontainer {
+    align-self: center;
+  }
+
+  .person {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ourpeople {
+    font-size: 11vw;
+  }
+
+  .persontitle {
+    width: 350px;
+  }
+  .personbio {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 389px) {
+  .aboutus {
+    font-size: 11vw;
+  }
+  .container {
+    font-size: 10.5vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .title {
+    padding-bottom: 0.5rem;
+  }
+
+  .smalltext {
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .smallleft {
+    padding: 0;
+  }
+
+  .smallcaption {
+    padding-top: 0.5rem;
+    line-height: 1.8rem;
+  }
+
+  .personcontainer {
+    font-size: 10.5vw;
+    width: 100%;
+    padding: 2rem;
+  }
+  .personimagecontainer {
+    align-self: center;
+  }
+
+  .person {
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .ourpeople {
+    font-size: 11vw;
+  }
+
+  .persontitle {
+    width: 350px;
+  }
+  .personbio {
+    width: 100%;
+  }
+}

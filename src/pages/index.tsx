@@ -70,9 +70,7 @@ const Home: NextPage = () => {
           icon={websites}
           vertical={false}
           title={'Hourly Service Fees'}
-          capture={
-            'When you do not need a package but you still need something done.'
-          }
+          capture={'No package needed. We are here to get your needs done.'}
           Component={ServiceFees}
           action={'Contact us'}
           actionRoute={'Websites'}

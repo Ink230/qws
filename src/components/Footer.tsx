@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import css from '../styles/Footer.module.css';
 
 import Image from 'next/image';
@@ -21,6 +22,7 @@ export const Footer: React.FC = () => {
         </div>
         <div className={css.footercushion}>
           <div className={css.directlinks}>
+            {/*
             <div className={css.footerlist}>
               <h3>Why QWS</h3>
               <p>Choosing QWS</p>
@@ -30,7 +32,8 @@ export const Footer: React.FC = () => {
               <p>SEO &#38; Performance</p>
               <p>Experience &#38; Qualifications</p>
               <p>Accessibility Compliance</p>
-            </div>
+            </div> 
+            */}
             <div className={css.footerlist}>
               <h3>Services</h3>
               <a href="#websites">
@@ -58,6 +61,7 @@ export const Footer: React.FC = () => {
                 <p>Hourly Rates</p>
               </a>
             </div>
+            {/*
             <div className={css.footerlist}>
               <h3>Resources</h3>
               <p>Why You Need a Website</p>
@@ -69,11 +73,15 @@ export const Footer: React.FC = () => {
               <p>Is Your Backend Doing its Job?</p>
               <p>Tired of the Mental Overhead?</p>
             </div>
+          */}
             <div className={css.footerlist}>
-              <h3>Company</h3>
-              <p>About</p>
-              <p>Blog</p>
-              <p>Careers</p>
+              <h3>QWS</h3>
+              <p>
+                <Link href="/about">
+                  <a>About</a>
+                </Link>
+              </p>
+
               <p>Contact Us</p>
             </div>
           </div>
