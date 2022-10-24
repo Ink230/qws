@@ -2,11 +2,13 @@ import type { NextPage } from 'next';
 import maintenance from '../../public/qws_maintenance.svg';
 import websites from '../../public/qws_websites_2.svg';
 import {
+  Business,
   Expectations,
   Hero,
   Layout,
   Main,
   MaintenanceTable,
+  Portfolio,
   Product,
   Section,
   ServiceFees,
@@ -56,22 +58,12 @@ const Home: NextPage = () => {
       </Section>
       <div id="portfolio"></div>
       <Section lessGap reverse>
-        <Product
-          icon={maintenance}
-          vertical={true}
-          title={'portfolio'}
-          capture={
-            'A maintenance package is your ticket to worry free business. We handle the tech, you handle your business.'
-          }
-          captureExtra={'Be free of the burden.'}
-          Component={MaintenanceTable}
-          action={'Find out how'}
-          actionRoute={'Websites'}
-          actionColour={true}
-        />
+        <Portfolio />
       </Section>
       <div id="business"></div>
-      <Section lessGap></Section>
+      <Section lessGap>
+        <Business />
+      </Section>
       <div id="hourly"></div>
       <Section lessGap reverse final>
         <Product

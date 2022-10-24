@@ -39,8 +39,8 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
           <div className={css.midcontentleft}>
             <div className={css.title}>Launch</div>
             <div className={css.smalltext}>
-              We help you with everything you need to launch your site. As well,
-              consider a maintenance package below.
+              We help you with everything you need to launch your site.
+              Maintenance packages are available.
             </div>
           </div>
 
@@ -57,7 +57,7 @@ export const Expectations: React.FC<Props> = ({ _unused }: Props) => {
             <div className={css.title}>Design</div>
             <div className={css.smalltext}>
               From understanding your business and vision we draft designs for
-              your review before locking it in.
+              your review and feedback.
             </div>
           </div>
         </div>

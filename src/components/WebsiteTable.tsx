@@ -23,7 +23,7 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
             </div>
 
             <div className={css.offering}>1 page</div>
-            <div className={css.offering}>Premade WP Theme</div>
+            <div className={css.offering}>Premade WordPress Theme</div>
             <div className={css.offering}>
               We fill the theme with your content
             </div>

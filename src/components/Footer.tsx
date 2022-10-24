@@ -30,18 +30,33 @@ export const Footer: React.FC = () => {
               <p>SEO &#38; Performance</p>
               <p>Experience &#38; Qualifications</p>
               <p>Accessibility Compliance</p>
-              <p></p>
             </div>
             <div className={css.footerlist}>
-              <h3>Services and Pricing</h3>
-              <p>Websites</p>
-              <p>APIs &#38; Databases</p>
-              <p>Website Maintenance</p>
-              <p>Business Solutions</p>
-              <p>Branding &#38; Design</p>
-              <p>Cloud App Services</p>
-              <p>Desktop Apps</p>
-              <p>Hourly Rates</p>
+              <h3>Services</h3>
+              <a href="#websites">
+                <p>Websites</p>
+              </a>
+              <a href="#maintenance">
+                <p>Website Maintenance</p>
+              </a>
+              <a href="#business">
+                <p>APIs &#38; Databases</p>
+              </a>
+              <a href="#business">
+                <p>Business Solutions</p>
+              </a>
+              <a href="#business">
+                <p>Branding &#38; Design</p>
+              </a>
+              <a href="#business">
+                <p>Cloud App Services</p>
+              </a>
+              <a href="#business">
+                <p>Desktop Apps</p>
+              </a>
+              <a href="#hourly">
+                <p>Hourly Rates</p>
+              </a>
             </div>
             <div className={css.footerlist}>
               <h3>Resources</h3>
