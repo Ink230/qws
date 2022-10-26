@@ -83,7 +83,7 @@ export const WebsiteTable: React.FC<Props> = ({ _unused }: Props) => {
         </div>
         <div className={css.column}>
           <div className={css.title}>
-            Custom Solution
+            Web App
             <div className={css.smalltitle}>
               React • NextJS • Angular • .NET • Laravel • Cloud
             </div>

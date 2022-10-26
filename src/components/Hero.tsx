@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import hero from '../../public/qws_hero.svg';
 import css from '../styles/Hero.module.css';
 
@@ -17,7 +18,11 @@ export const Hero: React.FC<Props> = ({ _unused }: Props) => {
           QWS will design, build or manage your online experience. Attract and
           retain clients without worrying about technology.{' '}
         </div>
-        <div className={css.heroaction}>Start Now</div>
+        <Link href="#footer">
+          <a>
+            <div className={css.heroaction}>Start Now</div>
+          </a>
+        </Link>
       </div>
       <div className={css.heroimage}>
         <Image alt="hero image" src={hero} quality={100} layout="responsive" />

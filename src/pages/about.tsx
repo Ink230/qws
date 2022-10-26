@@ -148,11 +148,11 @@ const About: NextPage = () => {
                 they need to solve their tech burdens.
               </p>
               <p>
-                With over ten years of experience in web development, Justin
-                brings a first class standard to all products developed. When
-                developing software solutions, Justin&apos;s top priority is to
-                get to know business owners in order to produce the quality
-                software they need that is relevant for their business.
+                With years of experience in web development, Justin brings a
+                first class standard to all products developed. When developing
+                software solutions, Justin&apos;s top priority is to get to know
+                business owners in order to produce the quality software they
+                need that is relevant for their business.
               </p>
               <p>
                 Justin has a degree in Chemical Engineering from the University

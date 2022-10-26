@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           captureExtra={'It really is that simple.'}
           Component={WebsiteTable}
           action={'Get to know us'}
-          actionRoute={'Websites'}
+          actionRoute={'#footer'}
         />
       </Section>
       <div id="expectations"></div>
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           captureExtra={'Be free of the burden.'}
           Component={MaintenanceTable}
           action={'Find out how'}
-          actionRoute={'Websites'}
+          actionRoute={'#footer'}
         />
       </Section>
       <div id="portfolio"></div>
@@ -73,10 +73,11 @@ const Home: NextPage = () => {
           capture={'No package needed. We are here to get your needs done.'}
           Component={ServiceFees}
           action={'Contact us'}
-          actionRoute={'Websites'}
+          actionRoute={'#footer'}
           actionColour={true}
         />
       </Section>
+      <div id="footer"></div>
     </Layout>
   );
 };
