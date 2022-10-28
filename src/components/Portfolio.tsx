@@ -63,8 +63,8 @@ export const Portfolio: React.FC<Props> = ({ _unused }: Props) => {
         title="Simple Wedding Site"
         tools="NextJS, simple"
       ></PortfolioCard>
-      <Link href="#portfolio">
-        <a>
+      <Link href="https://github.com/Ink230/online-marketplace" passHref>
+        <a target="_blank">
           <PortfolioCard
             image={qws_code}
             alt="online marketplace"
