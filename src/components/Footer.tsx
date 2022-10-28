@@ -4,7 +4,6 @@ import css from '../styles/Footer.module.css';
 import Image from 'next/image';
 import facebook from '../../public/fb.svg';
 import instagram from '../../public/in.svg';
-import linkedin from '../../public/li.svg';
 import twitter from '../../public/tt.svg';
 
 export const Footer: React.FC = () => {
@@ -94,30 +93,49 @@ export const Footer: React.FC = () => {
             </div>
 
             <div className={[css.finishersmall, css.rightalign].join(' ')}>
-              <div className={css.socialmedia}>
-                <Image
-                  alt="facebook"
-                  src={facebook}
-                  quality={100}
-                  layout="responsive"
-                />
-              </div>
-              <div className={css.socialmedia}>
-                <Image
-                  alt="twitter"
-                  src={twitter}
-                  quality={100}
-                  layout="responsive"
-                />
-              </div>
-              <div className={css.socialmedia}>
-                <Image
-                  alt="instagram"
-                  src={instagram}
-                  quality={100}
-                  layout="responsive"
-                />
-              </div>
+              <a
+                href="https://facebook.com/quinnwebsolutions"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={css.socialmedia}>
+                  <Image
+                    alt="facebook"
+                    src={facebook}
+                    quality={100}
+                    layout="responsive"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/quinnwebsolutions/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={css.socialmedia}>
+                  <Image
+                    alt="twitter"
+                    src={twitter}
+                    quality={100}
+                    layout="responsive"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://twitter.com/QuinnWebSols"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={css.socialmedia}>
+                  <Image
+                    alt="instagram"
+                    src={instagram}
+                    quality={100}
+                    layout="responsive"
+                  />
+                </div>
+              </a>
+              {/*
               <div className={css.socialmedia}>
                 <Image
                   alt="linkedin"
@@ -125,7 +143,7 @@ export const Footer: React.FC = () => {
                   quality={100}
                   layout="responsive"
                 />
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
