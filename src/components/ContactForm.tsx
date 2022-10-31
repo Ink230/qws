@@ -44,6 +44,7 @@ export const ContactForm: React.FC<Props> = ({ _unused }: Props) => {
           setEmail('');
           setMessage('');
           setConfirmation('Message sent and received!');
+          setWords(max);
         } else {
           setConfirmation('Message sending failed! Please try again.');
         }

@@ -27,16 +27,16 @@ export default function handler(
   });
 
   const mailData = {
-    from: 'justinquinn@quinnwebsolutions.com',
-    to: 'justinquinn@quinnwebsolutions.com',
+    from: process.env.username,
+    to: process.env.username,
     subject: `Message From ${req.body.name}`,
     text: req.body.message,
     html: `<div><p>Name: ${req.body.name}</p><p>Email: ${req.body.email}</p><p>${req.body.message}</p></div>`,
   };
 
   transporter.sendMail(mailData, (err, info) => {
-    if (err) console.log(err);
-    else console.log(info);
+    /*if (err) console.log(err);
+    else console.log(info); */
   });
 
   res.status(200).end();
