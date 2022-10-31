@@ -1,4 +1,5 @@
 export { Business } from './Business';
+export { ContactForm } from './ContactForm';
 export { Expectations } from './Expectations';
 export { Footer } from './Footer';
 export { Header } from './Header';

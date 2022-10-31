@@ -18,7 +18,7 @@ export const Hero: React.FC<Props> = ({ _unused }: Props) => {
           QWS will design, build or manage your online experience. Attract and
           retain clients without worrying about technology.{' '}
         </div>
-        <Link href="#footer">
+        <Link href="/contact">
           <a>
             <div className={css.heroaction}>Start Now</div>
           </a>

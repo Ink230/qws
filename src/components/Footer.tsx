@@ -81,7 +81,11 @@ export const Footer: React.FC = () => {
                 </Link>
               </p>
 
-              <p>Contact Us</p>
+              <p>
+                <Link href="/contact">
+                  <a>Contact Us</a>
+                </Link>
+              </p>
             </div>
           </div>
 

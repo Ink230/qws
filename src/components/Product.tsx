@@ -47,7 +47,9 @@ export const Product: React.FC<Props> = ({
           {captureExtra}
         </div>
         <Link href={actionRoute} key={actionRoute}>
-          <div className={actionType}>{action}</div>
+          <a>
+            <div className={actionType}>{action}</div>
+          </a>
         </Link>
       </div>
       <div className={css.offering}>
