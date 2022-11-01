@@ -237,7 +237,7 @@
   }
 }
 
-@media only screen and (min-width: 667px) and (max-width: 767px) {
+@media only screen and (min-width: 657px) and (max-width: 767px) {
   .tablecontainer {
     flex-direction: column;
     column-gap: 0;
@@ -300,7 +300,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 666px) {
+@media only screen and (min-width: 500px) and (max-width: 656px) {
   .tablecontainer {
     flex-direction: column;
     column-gap: 0;
