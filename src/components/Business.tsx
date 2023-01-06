@@ -8,7 +8,7 @@ export const Business: React.FC<Props> = ({ _unused }: Props) => {
     <div className={css.container}>
       <div className={css.title}>Additional Services</div>
       <div className={css.servicescontainer}>
-        <div className={css.service}>APIs and tRPC</div>
+        <div className={css.service}>APIs and RPC</div>
         <div className={css.service}>Databases</div>
         <div className={css.service}>Cloud Services</div>
         <div className={css.service}>Consulting</div>

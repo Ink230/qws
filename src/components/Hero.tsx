@@ -25,7 +25,13 @@ export const Hero: React.FC<Props> = ({ _unused }: Props) => {
         </Link>
       </div>
       <div className={css.heroimage}>
-        <Image alt="hero image" src={hero} quality={100} layout="responsive" />
+        <Image
+          alt="hero image"
+          src={hero}
+          quality={100}
+          layout="responsive"
+          priority={true}
+        />
       </div>
     </div>
   );
