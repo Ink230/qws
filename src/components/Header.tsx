@@ -34,7 +34,7 @@ export const Header: React.FC = () => {
   return (
     <div className={css.topbar}>
       <div className={css.logo}>
-        <Link href="/">
+        <Link href="/" passHref>
           <a>
             <Image alt="QWS" src={qws} quality={100} layout="responsive" />
           </a>
@@ -52,7 +52,11 @@ export const Header: React.FC = () => {
             );
           })}
         </ul>
-        <a onClick={() => hamburgerToggle(true)}>
+        <a
+          onClick={() => hamburgerToggle(true)}
+          aria-label="Hamburger"
+          href="#"
+        >
           <div className={css.hamburgericon}>
             <Image
               alt="QWS"
@@ -62,7 +66,7 @@ export const Header: React.FC = () => {
             />
           </div>
         </a>
-        <a onClick={() => hamburgerToggle(false)}>
+        <a onClick={() => hamburgerToggle(false)} aria-label="Menu" href="#">
           <ul className={css.hamburgercontainer} ref={hamRef}>
             <div className={css.logo}>
               <Image alt="QWS" src={qws} quality={100} layout="responsive" />
