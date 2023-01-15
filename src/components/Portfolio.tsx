@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { PortfolioCard } from '../components';
 import css from '../styles/Portfolio.module.css';
 
@@ -63,16 +62,18 @@ export const Portfolio: React.FC<Props> = ({ _unused }: Props) => {
         title="Simple Wedding Site"
         tools="NextJS, simple"
       ></PortfolioCard>
-      <Link href="https://github.com/Ink230/online-marketplace" passHref>
-        <a target="_blank">
-          <PortfolioCard
-            image={qws_code}
-            alt="online marketplace"
-            title="Online Marketplace"
-            tools="Web App, Angular, .NET, SQLite"
-          ></PortfolioCard>
-        </a>
-      </Link>
+      <a
+        href="https://github.com/Ink230/online-marketplace"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <PortfolioCard
+          image={qws_code}
+          alt="online marketplace"
+          title="Online Marketplace"
+          tools="Web App, Angular, .NET, SQLite"
+        ></PortfolioCard>
+      </a>
     </div>
   );
 };
