@@ -53,7 +53,7 @@ export default async function handler(
   }
 
   const transporter = nodemailer.createTransport({
-    service: 'Outlook365',
+    service: 'gmail',
     auth: {
       user: USERNAME,
       pass: PASSWORD,
@@ -69,8 +69,8 @@ export default async function handler(
   };
 
   transporter.sendMail(mailData, (err, info) => {
-    /*if (err) console.log(err);
-      else console.log(info); */
+    if (err) console.log(err);
+    else console.log(info);
   });
 
   res.status(200).end();
